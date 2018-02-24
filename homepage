@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="https://fonts.googleapis.com/css?family=Acme|Gloria+Hallelujah" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Acme|Cookie|Gloria+Hallelujah" rel="stylesheet">
 <style>
 .appearance{
 	width:500px;
@@ -34,10 +34,14 @@ What's my fortune?</button>
 
 <script>
 function myFunction() {
-    document.getElementById("demo").innerHTML = "You will die";
+    document.getElementById("demo").style.fontSize = "45px"; 
+    document.getElementById("demo").style.fontFamily = "Cookie,cursive";
+    document.getElementById("demo").style.textAlign = "center";        
+    document.getElementById("demo").innerHTML = "You will die.";
 }
 </script>
 
 
 </body>
 </html> 
+
