@@ -27,11 +27,17 @@
 <h1 class="app2">Welcome to the Fortune Teller!</h1>
 
 <button type="button" class="appearance"
-onclick="window.location.reload()">
+onclick="myFunction()">
 What's my fortune?</button>
 </center>
 <p id="demo"></p>
 
+<script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "You will die";
+}
+</script>
+
+
 </body>
 </html> 
-
