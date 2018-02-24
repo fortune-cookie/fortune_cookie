@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Acme|Gloria+Hallelujah" rel="stylesheet">
+<style>
+.appearance{
+	width:500px;
+    height:200px;
+    background:rgb(230,179,255);
+    font-family:'Acme', sans-serif;
+    font-size:36pt;
+    }
+.app2{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size:36pt;
+  }
+</style>
+</head>
+<body>
+<center>
+<h1 class="app2">Welcome to the Fortune Teller!</h1>
+
+<button type="button" class="appearance"
+onclick="window.location.reload()">
+What's my fortune?</button>
+</center>
+<p id="demo"></p>
+
+</body>
+</html> 
+
