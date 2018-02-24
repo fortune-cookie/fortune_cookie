@@ -6,10 +6,16 @@
 .appearance{
 	width:500px;
     height:200px;
-    background:rgb(230,179,255);
+    background:rgb(255,204,153);
     font-family:'Acme', sans-serif;
     font-size:36pt;
+    text-align: center;
+ 	cursor: pointer;
+  	outline: none;
+  	border-radius: 15px;
+    box-shadow: 0 9px #999;
     }
+.appearance:hover {background-color: rgb(255,179,230)}
 .app2{
   font-family: 'Gloria Hallelujah', cursive;
   font-size:36pt;
